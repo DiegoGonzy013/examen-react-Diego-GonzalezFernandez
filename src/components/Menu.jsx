@@ -8,7 +8,7 @@ import {
   Offcanvas,
   Form,
   FormControl,
-  Button,
+  Button
 } from 'react-bootstrap';
 import  {PaginasApp}  from '../data/PaginasApp';
 
@@ -21,7 +21,11 @@ class Menu extends React.Component {
     return (
       <Navbar bg="light" expand={true}>
   <Container fluid>
-    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+    <Navbar.Brand href="#">
+    <img
+              className="logo-image"
+              src="https://images-ext-2.discordapp.net/external/ffCNNee83k6MGnfuxoTrdz1YJzl6wLAibWHk7ZwwtHE/https/upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png?width=1077&height=936"
+            /> Desarrollo de Interfaces: Examen React.js</Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
